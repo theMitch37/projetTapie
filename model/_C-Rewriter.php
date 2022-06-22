@@ -3,8 +3,8 @@
 class Rewriter
 {
     private $url = "";
-    private $headerPath;
-    private $headPath;
+    private $headerPath = "./view/header.html";
+    private $headPath = "./view/head.html";
     private $def;
     private $page;
 
