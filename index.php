@@ -7,9 +7,9 @@ $rew = new Rewriter(array());
 <!DOCTYPE html>
 <html>
     <?php
-        $rew->drawHead();
+        echo $rew->drawHead();
     ?>
     <body>
-        
+        <?php echo $rew->init(); ?>
     </body>
 </html>

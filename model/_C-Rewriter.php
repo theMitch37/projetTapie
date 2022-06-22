@@ -63,7 +63,7 @@ class Rewriter
             else
             {
                 $this->page = $tab[count($tab)-1];
-                rootPage();
+                $this -> rootPage();
             }
 
         }
