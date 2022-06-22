@@ -6,6 +6,9 @@ $rew = new Rewriter(array());
 ?>
 <!DOCTYPE html>
 <html>
+    <?php
+        $rew->drawHead();
+    ?>
     <body>
         
     </body>
