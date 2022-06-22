@@ -44,12 +44,12 @@ class Rewriter
 
     function drawHeader()
     {
-        include($this->getHeader());
+        include($this->headerPath);
     }
 
     function drawHead()
     {
-        include($this->getHead());
+        include($this->headPath);
     }
     function explodeUrl()
     {
